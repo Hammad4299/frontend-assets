@@ -1,0 +1,65 @@
+.table {
+  display:table;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.table-head {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.table-body {
+  display: table-row-group;
+}
+
+.table-row {
+  display:table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.table-headcell {
+  display:table-cell;
+}
+
+.table-cell {
+  display:table-cell;
+  text-align: left;
+}
+
+.table-foot {
+  display:table-footer-group;
+}
+
+.table.jambo_table .table-head {
+  background: rgba(52, 73, 94, 0.94);
+  color: #ECF0F1;
+}
+
+.table>.table-body>.table-row>.table-cell,
+.table>.table-body>.table-row>.table-headcell,
+.table>.table-foot>.table-row>.table-cell,
+.table>.table-foot>.table-row>.table-headcell,
+.table>.table-head>.table-row>.table-cell,
+.table>.table-head>.table-row>.table-headcell {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+.table>.table-head>.table-row>.table-headcell {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+
+.table-bordered>.table-body>.table-row>.table-cell,
+.table-bordered>.table-body>.table-row>.table-headcell,
+.table-bordered>.table-foot>.table-row>.table-cell,
+.table-bordered>.table-foot>.table-row>.table-headcell,
+.table-bordered>.table-head>.table-row>.table-cell,
+.table-bordered>.table-head>.table-row>.table-headcell {
+  border: 1px solid #ddd;
+}
