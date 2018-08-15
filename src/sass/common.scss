@@ -1,0 +1,54 @@
+@import 'variables';
+@import "extendables";
+@import "mixins";
+@import 'div-table';
+
+.form-error{
+  color:red;
+}
+
+.select2-container.select2-container--open {
+  z-index: 999999!important;
+}
+
+.pagination {
+  >li:first-child {
+    span,a {
+      border-radius: 15px 0px 0px 15px;
+    }
+  }
+  >li:last-child {
+    span,a{
+      border-radius: 0px 15px 15px 0px;
+    }
+  }
+
+  li {
+    span, a{
+      font-weight: bold;
+    }
+    &.active {
+      span, a {
+        color: red;
+        background-color: transparent;
+        border-color: #ddd;
+      }
+    }
+  }
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.floating-footer-action
+{
+  border-radius: 5px;
+  border: none;
+  position: fixed;
+  bottom:20px;
+  right:30px;
+}
+
+
+
