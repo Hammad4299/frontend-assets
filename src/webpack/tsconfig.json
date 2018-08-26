@@ -1,0 +1,17 @@
+//Need for es6 and then es6 to es5 because of
+//https://www.reddit.com/r/typescript/comments/4fuo7v/is_it_possible_to_typescriptes6babeles5/
+//#Awesome
+{
+  "compilerOptions": {
+    "paths": {
+      "js/*": ["resources/assets/js/*"],
+      "models/*": ["resources/assets/models/*"],
+      "externals/*": ["resources/assets/externals/*"],
+      "interfaces/*": ["resources/assets/interfaces/*"],
+      "remotes/*": ["resources/assets/remotes/*"],
+      "services/*": ["resources/assets/services/*"],
+      "shared/*": ["resources/assets/shared/*"],
+      "root/*": ["resources/assets/*"]
+    },
+  },
+}
